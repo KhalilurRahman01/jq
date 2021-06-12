@@ -1,0 +1,197 @@
+  #draggable {
+    background-color: indigo;
+
+    color: #ffffff;
+   width: 150px;
+   height: 150px; 
+   padding: 0.5em; }
+
+
+
+  .inter{
+    padding:10px ;
+  }
+
+   h2{
+
+    color: ;
+   }
+
+   #dragg { 
+    background-color: green;
+    color: #ffffff;
+    width: 100px;
+     height: 100px; 
+     padding: 0.5em; 
+     float: left;
+      margin: 10px 10px 10px 0; }
+
+  #dropp { 
+
+    width: 150px;
+   height: 150px;
+    padding: 0.5em; 
+    float: left;
+    margin: 10px; }
+
+/*selectable*/
+  #feedback { font-size: 1.4em; }
+  #selectable .ui-selecting { background:darkcyan ; }
+  #selectable .ui-selected { background: darkcyan; color: white; }
+  #selectable { list-style-type: none; margin: 0; padding: 0; width: 60%; }
+  #selectable li { margin: 3px; padding: 0.4em; font-size: 1.4em; height: 44px; }
+
+
+  /*resizable*/
+
+    #resizable { width: 309px; height: 188px; padding: 0.5em; }
+  #resizable h3 { text-align: center; margin: 0; }
+
+
+
+ /* Sortable*/
+
+ body {
+    min-width: 520px;
+  }
+  .column {
+    width: 170px;
+    float: left;
+    padding-bottom: 100px;
+  }
+  .portlet {
+    margin: 0 1em 1em 0;
+    padding: 0.3em;
+  }
+  .portlet-header {
+    padding: 0.2em 0.3em;
+    margin-bottom: 0.5em;
+    position: relative;
+    background: teal;
+  }
+  .portlet-toggle {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -8px;
+  }
+  .portlet-content {
+    padding: 0.4em;
+  }
+  .portlet-placeholder {
+    border: 1px dotted black;
+    margin: 0 1em 1em 0;
+    height: 50px;
+  }
+
+
+  fieldset {
+      border: 0;
+      margin-left: 300px;
+    }
+    label {
+      display: block;
+      margin: 20px 0 0 0;
+    }
+ 
+    #circle {
+      float: left;
+      background: yellow;
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+    }
+
+
+    .ui-progressbar {
+    position: relative;
+  }
+  .progress-label {
+    position: absolute;
+    left: 50%;
+    top: 4px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #fff;
+  }
+ #sortable { list-style-type: none; margin: 0; padding: 0; width: 60%; }
+  #sortable li { margin: 0 3px 3px 3px; padding: 0.4em; padding-left: 1.5em; font-size: 1.4em; height: 50px; }
+  #sortable li span { position: absolute; margin-left: -1.3em; }
+
+  .toggler {
+    width: 500px;
+    height: 200px;
+  }
+  #button1 {
+    padding: .5em 1em;
+    text-decoration: none;
+    background-color: darkcyan;
+    color: #ffffff;
+  }
+  #effect {
+    position: relative;
+    width: 240px;
+    height: 185px;
+    padding: 0.4em;
+  }
+  #effect h3 {
+    margin: 0;
+    padding: 0.4em;
+    text-align: center;
+    background-color: yellowgreen;
+
+  }
+    .toggler { width: 500px; height: 200px; position: relative; }
+    #button2 { padding: .5em 1em; text-decoration: none;background-color: darkcyan; color: #ffffff;}
+    #effect2 { width: 240px; height: 170px; padding: 0.4em; position: relative; background: #fff; }
+    #effect h3 { margin: 0; padding: 0.4em; text-align: center; }
+
+
+   
+  .toggler { width: 500px; height: 200px; position: relative; }
+  #button { padding: .5em 1em; text-decoration: none;background-color: darkcyan; color: #ffffff; }
+  #effect { position: relative; }
+  .newClass { width: 240px;  padding: 1em; letter-spacing: 0; margin: 0; }
+  .anotherNewClass { text-indent: 40px; letter-spacing: .2em; width: 410px; height: 100px; padding: 30px; margin: 10px; font-size: 1.1em; }
+
+  #parent {
+    width: 60%;
+    height: 40px;
+    margin: 10px auto;
+    padding: 5px;
+    border: 1px solid #777;
+    background-color: #fbca93;
+    text-align: center;
+  }
+  .positionable {
+    position: absolute;
+    display: block;
+    right: 0;
+    bottom: 0;
+    background-color: #bcd5e6;
+    text-align: center;
+  }
+  #positionable1 {
+    width: 75px;
+    height: 75px;
+  }
+  #positionable2 {
+    width: 120px;
+    height: 40px;
+  }
+  select, input {
+    margin-left: 15px;
+  }
+
+  .custom-colorize {
+    font-size: 20px;
+    position: relative;
+    width: 75px;
+    height: 75px;
+  }
+  .custom-colorize-changer {
+    font-size: 10px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  
